@@ -6,7 +6,7 @@ Observability in WSO2 API Manager (WSO2 API-M) is really important to debug issu
 -   External Calls (HTTP/HTTPS)
 -   Database Calls (JDBC and LDAP)
 
-Furthermore, when observability is enabled in WSO2 API-M, a random Correlation ID is generated within the WSO2 API-M for each transaction allowing you to correlate the latter three types of calls. Thereby, the requests and the responses that correspond to a specific API call will be logged under one Correlation ID making it easier to analyze the information. If required, you can provide a unique Correlation ID by adding the `activityid` in the header to the request sent to WSO2 API-M.
+Furthermore, when observability is enabled in WSO2 API-M, a random Correlation ID is generated within the WSO2 API-M for each transaction allowing you to correlate the prior three types of calls. Thereby, the requests and the responses that correspond to a specific API call will be logged under one Correlation ID making it easier to analyze the information. If required, you can provide a unique Correlation ID by adding the `activityid` in the header to the request sent to WSO2 API-M.
 
 !!! note
     Observability is not enabled by default as it slightly impacts WSO2 API Manager's performance.
