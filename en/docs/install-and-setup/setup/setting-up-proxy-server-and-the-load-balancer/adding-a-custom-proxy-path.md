@@ -1,7 +1,7 @@
 # Access WSO2 API Manager through a custom proxy path
 
 Adding a custom proxy path is useful when you have a proxy server
-fronting your product server. In this scenario, the "custom proxy path"
+fronting your production server. In this scenario, the "custom proxy path"
 is used for mapping a proxy URL with the actual URL of your
 server, which allows clients to access the server with the proxy
 URL.
