@@ -20,7 +20,7 @@ Choreo API-M Analytics can be used to fulfill the stats and analytics needs of t
 To configure analytics, 
 
 1. Sign up to [https://console.choreo.dev/login/](https://console.choreo.dev/login/).
-2. Go to [https://console.choreo.dev/user-settings/onpremkeys](https://console.choreo.dev/user-settings/onpremkeys) and generate a key
+2. Go to [[https://console.choreo.dev/user-settings/onpremkeys](https://console.choreo.dev/organizations/<organization name>/settings/onpremkeys?profile=idevp )]([https://console.choreo.dev/user-settings/onpremkeys](https://console.choreo.dev/organizations/<organization name>/settings/onpremkeys?profile=idevp )) and generate a key
 3. Open the `/dockerfiles/conf/apim/repository/conf/deployment.toml` file and update the `[apim.analytics]` configuration similar to the following.
     ```
     [apim.analytics]
