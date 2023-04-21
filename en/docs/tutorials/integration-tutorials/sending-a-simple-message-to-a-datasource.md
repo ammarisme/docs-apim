@@ -26,8 +26,8 @@ A **data service** provides a web service interface to access data that is stor
     4. Create a user and grant the user access to the Database.
     
         ```
-       CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
-       GRANT ALL PRIVILEGES ON Employees.* TO 'user'@'localhost';
+       CREATE USER 'user'@'%' IDENTIFIED BY 'password';
+       GRANT ALL PRIVILEGES ON Employees.* TO 'user'@'%';
        ```
 
     5.  Create the Employee table inside the Employees database:
